@@ -7,7 +7,6 @@
     <script type="text/javascript" src="js/apiv2.0.min.js"></script>
     <script type="text/javascript" src="js/DistanceTool_min.js"></script>
     <script type="text/javascript" src="js/DrawingManager_min.js"></script>
-    <script type="text/javascript" src="js/getmodules.js"></script>
     <link rel="stylesheet" href="css/bmap.css"/>
     <link rel="stylesheet" href="css/DrawingManager_min.css" />
     <style type="text/css">
@@ -33,8 +32,8 @@
     map.enableKeyboard();   
 
     // 左上角，添加比例尺，有问题
-    var control = new BMap.ScaleControl({anchor: BMAP_ANCHOR_TOP_LEFT});
-    map.addControl(control);
+    /*var control = new BMap.ScaleControl({anchor: BMAP_ANCHOR_TOP_LEFT});
+    map.addControl(control);*/
 
     //左上角，仅包含平移和缩放按钮 
     var top_left_navigation = new BMap.NavigationControl({anchor: BMAP_ANCHOR_TOP_LEFT, type: BMAP_NAVIGATION_CONTROL_SMALL});     
