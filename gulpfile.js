@@ -29,7 +29,7 @@ gulp.task('jsmin', function () {
 
 // Images
 gulp.task("imageminify",function(){
-	gulp.src('tiles/0.bmp')
+	gulp.src('tiles/0.png')
     	.pipe(imagemin({
     		optimizationLevel: 2,
     		progressive: true,
